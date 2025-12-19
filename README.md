@@ -147,6 +147,23 @@ css
   object-fit: cover;
 }
 ```
+```
+views.py
+
+from django.shortcuts import render
+
+def home(request):
+    return render(request, 'index.html')
+```
+```
+urls.py
+from django.urls import path
+from .views import home
+
+urlpatterns = [
+    path('', home, name='home'),
+]
+```
 # OUTPUT:
 <img width="1920" height="1013" alt="tablets" src="https://github.com/user-attachments/assets/ae1bbd58-9510-419c-9ba8-c1a3aff5f570" />
 
