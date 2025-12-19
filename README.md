@@ -23,6 +23,7 @@ Create a HTML file and include the needed Bootstrap components.
 Publish the website in the LocalHost.
 
 # PROGRAM :
+```
 {% load static %}
 <!DOCTYPE html>
 <html lang="en">
@@ -116,7 +117,7 @@ Publish the website in the LocalHost.
 </section>
 </body>
 </html>
-
+```
 # OUTPUT:
 <img width="1920" height="1013" alt="tablets" src="https://github.com/user-attachments/assets/ae1bbd58-9510-419c-9ba8-c1a3aff5f570" />
 
