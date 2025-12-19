@@ -118,6 +118,7 @@ Publish the website in the LocalHost.
 </body>
 </html>
 ```
+```
 css
 .products {
   display: flex;
