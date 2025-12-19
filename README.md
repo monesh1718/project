@@ -118,6 +118,34 @@ Publish the website in the LocalHost.
 </body>
 </html>
 ```
+css
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.product-card {
+  width: 200px;
+  text-align: center;
+  border: 2px solid green;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: white;
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+  transform: scale(1.1);
+}
+
+.product-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+```
 # OUTPUT:
 <img width="1920" height="1013" alt="tablets" src="https://github.com/user-attachments/assets/ae1bbd58-9510-419c-9ba8-c1a3aff5f570" />
 
